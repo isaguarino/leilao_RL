@@ -33,7 +33,8 @@ Em função da natureza distinta dos 2 modelos de leilão foram utilizados difer
 
 Os resultados do algoritmo do primeiro modelo de leilão, no qual o agente joga contra um oponente de Nash, demonstram que o agente foi capaz de aprender de forma consistente a estratégia de lances compatíveis com o equilíbrio de Nash. Após 6 milhões de episódios, o algoritmo convergiu para a política ótima (b = v/2), onde para cada estado (v), o agente aprendeu dar lances iguais a metade da sua valoração, como mostra a tabela abaixo. O grafico a seguir também mostra visualmente a comparação , para cada valoração, do lance aprendido com o equilíbrio teórico. A sobreposição das duas retas confirma que o aprendizado foi bem sucedido. Ainda, as recompensas médias, após convergência inicial mais rápida, estabilizaram-se em níveis consistentes com o equilíbrio (1.67).
 
-<img width="698" height="503" alt="tabela1" src="https://github.com/user-attachments/assets/d0d45190-a5dc-47fc-85fc-296350026cf1" />
+<img width="440" height="401" alt="tabela1" src="https://github.com/user-attachments/assets/0cce2ab9-ad2f-49b0-bf14-c498641fdfa6" />
+
 
 <img width="908" height="583" alt="graf1" src="https://github.com/user-attachments/assets/34ffb6a2-f5f2-447a-a088-b3380dc15c3c" />
 
@@ -60,6 +61,7 @@ Matrícula: 231.101.017
 Pontifícia Universidade Católica do Rio de Janeiro
 
 Curso de Pós Graduação *Business Intelligence Master*
+
 
 
 

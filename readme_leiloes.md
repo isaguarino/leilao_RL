@@ -33,8 +33,10 @@ Em função da natureza distinta dos 2 modelos de leilão foram utilizados difer
 
 Os resultados do algoritmo do primeiro modelo de leilão, no qual o agente joga contra um oponente de Nash, demonstram que o agente foi capaz de aprender de forma consistente a estratégia de lances compatíveis com o equilíbrio de Nash. Após 6 milhões de episódios, o algoritmo convergiu para a política ótima (b = v/2), onde para cada estado (v), o agente aprendeu dar lances iguais a metade da sua valoração, como mostra a tabela abaixo. O grafico a seguir também mostra visualmente a comparação , para cada valoração, do lance aprendido com o equilíbrio teórico. A sobreposição das duas retas confirma que o aprendizado foi bem sucedido. Ainda, as recompensas médias, após convergência inicial mais rápida, estabilizaram-se em níveis consistentes com o equilíbrio (1.67).
 
-<img width="340" height="301" alt="tabela1" src="https://github.com/user-attachments/assets/6c6b463c-36e8-4aa1-8ec1-b0f350addc1c" /> <img width="908" height="583" alt="graf1" src="https://github.com/user-attachments/assets/97cf8072-29e2-401f-891f-726ab659ba96" />
-
+<p align="center">
+  <img src="imagens/tabela1.png" width="340" height="301" />
+  <img src="imagens/graf1.png" width="450" height="301" />
+</p>
 
 
 No segundo formato de leilão, quando os 2 agentes aprendem simultaneamente, os resultados mostram um processo de convergência mais lento e com maiores flutuações em comparação ao cenário contra oponente de Nash. Ainda assim, após um número suficiente de episódios, observa-se que os lances aprendidos por ambos os agentes aproximam-se do equilíbrio teórico, embora apresentem desvios residuais em algumas valorações. Vale notar, contudo, que esses desvios são de baixa magnitude absoluta (em média 0.023) e não apresentam viés sistemático ,distinguindo-se do comportamento observado em experimentos com participantes humanos, nos quais é recorrente o fenômeno de overbidding. O gráfico e tabela abaixo ilustram a proximidade dos lances aprendidos em relação ao equilíbrio teórico, sugerindo um processo de aprendizado bem sucedido por parte dos agentes.
@@ -55,6 +57,7 @@ Matrícula: 231.101.017
 Pontifícia Universidade Católica do Rio de Janeiro
 
 Curso de Pós Graduação *Business Intelligence Master*
+
 
 
 

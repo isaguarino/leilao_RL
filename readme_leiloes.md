@@ -41,7 +41,9 @@ Os resultados do algoritmo do primeiro modelo de leilão, no qual o agente joga 
 No segundo formato de leilão, quando os 2 agentes aprendem simultaneamente, os resultados mostram um processo de convergência mais lento e com maiores flutuações em comparação ao cenário contra oponente de Nash. Ainda assim, após um número suficiente de episódios, observa-se que os lances aprendidos por ambos os agentes aproximam-se do equilíbrio teórico, embora apresentem desvios residuais em algumas valorações. Vale notar, contudo, que esses desvios são de baixa magnitude absoluta (em média 0.023) e não apresentam viés sistemático ,distinguindo-se do comportamento observado em experimentos com participantes humanos, nos quais é recorrente o fenômeno de overbidding. O gráfico e tabela abaixo ilustram a proximidade dos lances aprendidos em relação ao equilíbrio teórico, sugerindo um processo de aprendizado bem sucedido por parte dos agentes.
 
 
-<img width="802" height="506" alt="tabela2" src="https://github.com/user-attachments/assets/56f148cb-8045-4082-96c3-399669809544" />
+<img width="702" height="406" alt="tabela2" src="https://github.com/user-attachments/assets/56f148cb-8045-4082-96c3-399669809544" />
+
+
 
 
 <img width="873" height="590" alt="graf2" src="https://github.com/user-attachments/assets/fdb79934-ca09-47bf-b152-78f3734dc675" />
@@ -58,6 +60,7 @@ Matrícula: 231.101.017
 Pontifícia Universidade Católica do Rio de Janeiro
 
 Curso de Pós Graduação *Business Intelligence Master*
+
 
 
 

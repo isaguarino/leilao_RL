@@ -39,6 +39,11 @@ Os resultados do algoritmo do primeiro modelo de leilão, no qual o agente joga 
 
 No segundo formato de leilão, quando os 2 agentes aprendem simultaneamente, os resultados mostram um processo de convergência mais lento e com maiores flutuações em comparação ao cenário contra oponente de Nash. Ainda assim, após um número suficiente de episódios, observa-se que os lances aprendidos por ambos os agentes aproximam-se do equilíbrio teórico, embora apresentem desvios residuais em algumas valorações. Vale notar, contudo, que esses desvios são de baixa magnitude absoluta (em média 0.023) e não apresentam viés sistemático ,distinguindo-se do comportamento observado em experimentos com participantes humanos, nos quais é recorrente o fenômeno de overbidding. O gráfico e tabela abaixo ilustram a proximidade dos lances aprendidos em relação ao equilíbrio teórico, sugerindo um processo de aprendizado bem sucedido por parte dos agentes.
 
+<img width="502" height="306" alt="tabela2" src="https://github.com/user-attachments/assets/56f148cb-8045-4082-96c3-399669809544" />
+
+<img width="873" height="590" alt="graf2" src="https://github.com/user-attachments/assets/fdb79934-ca09-47bf-b152-78f3734dc675" />
+
+
 ### 4. Conclusões
 
 Este trabalho demonstrou que algoritmos de Reinforcement Learning são capazes de reproduzir estratégias próximas ao equilíbrio de Nash em leilões de primeiro preço com valorações privadas e independentes. No cenário com oponente de Nash, a estratégia do agente convergiu exatamente para a solução teórica, enquanto que, no modelo multiagente de aprendizado simultâneo, os lances aprendidos apresentaram apenas pequenos desvios não enviesados em relação ao previsto pela teoria econômica.
@@ -50,6 +55,7 @@ Matrícula: 231.101.017
 Pontifícia Universidade Católica do Rio de Janeiro
 
 Curso de Pós Graduação *Business Intelligence Master*
+
 
 
 

@@ -28,15 +28,7 @@ O desenho dos leilões segue como referência os formatos dos experimentos condu
 
 Em função da natureza distinta dos 2 modelos de leilão foram utilizados diferentes algoritmos para resolver cada um dos problemas apresentados. Para (i), um modelo de um unico agente, foi usado o método de Q-learning, mais especificamente Bandit Q-learning contextual, na medida em que os episódios são independentes , não havendo transição sequencial entre eles e que as ações do agente dependem de um estado contextual (valoração). A tabela Q é atualizada com taxa de aprendizado de 0.2 e a política exploração usada é e-greedy com epsilon decaindo exponencialmente de 1,0 até 0,02. Para se definir esses hiperparâmetros, foram feitos inúmeros testes ,  analisando a convergência das recompensas médias e o desvio dos lances aprendidos em relação ao equilíbrio de Nash e fazendo os ajustes necessários após cada simulação. Em (ii), devido a maior complexidade do modelo multiagente , foi utilizada uma abordagem híbrida, combinando o Q-learning com um modelo de aprendizado baseado na experiência da observação dos lances do oponente, para melhor inferir a sua estratégia e atualizar as estimativas de probabilidade de se vencer o leilão para cada possível ação (lance). Além disso, a estratégia de exploração foi alterada para Boltzmann , já que o e-greedy nao funcionou tão bem para aprendizado de 2 agentes, mostrando resultados mais distantes do equilíbrio de Nash.
 
-Hiperparâmetros: Oponente de Nash				Hiperparâmetros: Multiagentes		
-α		0.2		γ		1.0
-γ		1.0		α	inicial	0.4
-ε 	inicial	1.0			mínimo	0.01
-	mínimo	0.02			decaimento	0.9999995
-	decaimento	0.999999		τ	inicial	1.0
-# de episódios		6,000,000			mínimo	0.01
-				# de episódios		10,000,000
-<img width="786" height="241" alt="image" src="https://github.com/user-attachments/assets/3cb4c2ba-a1ba-4fa1-8bff-41a7b98e6018" />
+<img width="797" height="263" alt="image" src="https://github.com/user-attachments/assets/e78e846d-59ce-491a-92ec-64ebc7865162" />
 
 
 ### 3. Resultados
